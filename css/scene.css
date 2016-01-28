@@ -116,7 +116,8 @@ body{
 
 .big_point{
 	position: absolute;	
-	font-size: 24px;
+    font-size: 24px;
+    font-size: 1.8vw;
 	border: gray solid 2px;
 	border-radius: 4px;
 	padding: 5px;
