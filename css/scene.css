@@ -219,12 +219,14 @@ body{
 }
 
 #intercap{
-	position: relative;
+	position: absolute;
+	top:58%;
 	left: 650px;
 	z-index: 10;
 }
 #xixcap{
-	position: relative;
+	position: absolute;
+	top:58%;
 	left: 650px;
 	z-index: 10;
 }

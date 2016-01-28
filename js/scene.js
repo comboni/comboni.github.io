@@ -5,13 +5,13 @@ $(function () { // wait for document ready
 //intercapitular
 var sc1 = new ScrollMagic.Scene({triggerElement: "#intercap", offset: -400})
 	.setTween("#intercap", .7, {backgroundColor: "green", scale: 1.8, opacity: 0.5}) // trigger a TweenMax.to tween
-	.addIndicators({name: "intercap)"}) // add indicators (requires plugin)
+	//.addIndicators({name: "intercap)"}) // add indicators (requires plugin)
 	.addTo(controller);
 
 //xix chapter
 var sc1 = new ScrollMagic.Scene({triggerElement: "#xixcap", offset: -400})
 	.setTween("#xixcap", .7, {backgroundColor: "green", scale: 2}) // trigger a TweenMax.to tween
-	.addIndicators({name: "xixcap)"}) // add indicators (requires plugin)
+	//.addIndicators({name: "xixcap)"}) // add indicators (requires plugin)
 	.addTo(controller);
 //jquery transtions
 //$('.box').transition({scale:2.2});
