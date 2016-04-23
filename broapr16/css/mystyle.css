@@ -2,3 +2,43 @@
 	color:#E1673D;
 	text-shadow: none;
 }
+
+.cajagra{
+	height: 100%;
+	width: 100%;
+}
+.lineintem{
+	position: relative;
+	height: 3%;
+	width: 100%;
+	text-align: right;
+	padding-right: 15px;
+	margin-top: -10px;
+	clear: both;
+	line-height: 1.2;
+}
+.namegra{
+	height: 100%;
+	width: 12%;
+	float: left;
+	text-align: right;
+	padding-right: 15px;
+}
+.bargra{
+	height: 70%;
+	background-color: #E05F0F;
+	float: left;
+	margin-top: 6px;
+}
+.barnum{
+	float: left;
+	width: 3%;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.boxgraftot{
+	position: absolute;
+	left:30%;
+	top:50%;
+}

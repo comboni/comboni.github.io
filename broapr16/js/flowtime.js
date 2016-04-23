@@ -1705,6 +1705,7 @@ var Flowtime = (function ()
    * if transform is not available then fallbacks to position absolute behaviour
    */
   function navigate(dest) {
+
     var x;
     var y;
     var pageIndex = NavigationMatrix.getPageIndex(dest);
@@ -1722,6 +1723,12 @@ var Flowtime = (function ()
         y = pageIndex.page;
       }
     }
+
+    if (x == 7){
+      console.log(x);
+      movegraf()
+    }
+
     if (_scrollTheSection === true) {
       var sectionDest = dest.parentNode;
       var outside = ftContainer;
