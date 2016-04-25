@@ -1,3 +1,4 @@
+//animaci´on del gr´afico. Esta funci´on la llma flotime.js l´inea 1727 cuando la variable x (secci´on) es 7.
 function movegraf(){
 		var mytime;
 		mytime=5000;

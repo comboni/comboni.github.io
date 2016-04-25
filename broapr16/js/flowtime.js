@@ -1724,7 +1724,7 @@ var Flowtime = (function ()
       }
     }
 
-    if (x == 7){
+    if (x == 8){
       console.log(x);
       movegraf()
     }
