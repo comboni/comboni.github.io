@@ -1,0 +1,18 @@
+<ion-view view-title="Destak2">
+  <ion-content padding="true">
+  <ion-refresher on-refresh="doRefresh()"></ion-refresher>
+	<ion-list>
+		<ion-item class="item-icon-right item-thumbnail-left" ng-repeat="postDestak2 in postsDestak2 track by $index" href="#/app/posts/{{postDestak2.id}}" track>
+			<img ng-if="postDestak2.featured_image" ng-src="{{postDestak2._embedded['http://v2.wp-api.org/attachment'][0][$index].source_url}}" class="alignleft" />
+
+	        <img width="100px" ng-src="{{postDestak2.better_featured_image.source_url}}" / style="object-fit: cover;">
+
+			<h2 ng-bind-html="postDestak2.title.rendered"></h2>
+			<p ng-if="postDestak2.excerpt.rendered" ng-bind-html="postComic.excerpt.rendered"></p>
+			<i class="icon ion-chevron-right icon-accessory"></i>
+		</ion-item>
+	</ion-list>
+
+  
+  </ion-content>
+</ion-view>
