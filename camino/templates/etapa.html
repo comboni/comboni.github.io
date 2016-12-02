@@ -1,0 +1,111 @@
+<ion-view view-title="{{etapa.number}}">
+  <ion-content>
+    <img style="width: 100vw;" src="img/{{etapa.img}}">
+
+      <ion-list>
+
+          <div class="card">
+            <div class="item item-divider">
+              <h2 ng-bind-html="etapa.title"></h2>
+            </div>
+            <div class="item item-text-wrap">
+              {{etapa.intro}}
+            </div>
+          </div>
+
+          <div class="list card">
+             <p style="text-align: center; padding-top: 10px;" ng-style="{'font-size': text.size + 'px'}">Tamaño del texto</p>
+             <p style="text-align: center;"><input min="12" max="24" ng-model="text.size" type="range"></p>
+          </div>
+
+        <div class="list">
+          <ion-item class="bar bar-positive" ng-click="click1($event)">
+            <h1 class="title">Oración de la mañana</h1>
+          </ion-item>
+
+          <div class="card" ng-show="show1">
+            <div class="item item-text-wrap dark" ng-style="{'font-size': text.size + 'px'}" style="line-height: 150%">
+                <div class="assertive">Oración al inicio del día</div>
+                <div ng-bind-html="santiago_prayer"></div>
+                <br>
+            	  <div ng-bind-html="etapa.morning.m01"></div>
+                <br>
+                <div class="assertive" ng-bind-html="etapa.morning.m02"></div>
+
+                <div ng-bind-html="etapa.morning.m03"></div>
+                <br>
+                <div class="assertive" ng-bind-html="etapa.morning.m04"></div>
+
+                <div ng-bind-html="etapa.morning.m05"></div>
+                <br>
+                <div ng-bind-html="etapa.morning.m06"></div>
+                <br>
+                <div class="assertive">Padre Nuestro</div>
+                <div ng-bind-html="padrenuestro"></div>
+                <br>
+                <div class="assertive">Oración final</div>                
+                <div ng-bind-html="etapa.morning.m07"></div>
+                <br>             
+            </div>
+          </div>
+        </div>
+
+        <div class="list">
+          <ion-item class="bar bar-positive" ng-click="click2($event)"> 
+            <h1 class="title">Oración en el camino</h1>
+           </ion-item>
+            <div class="card" ng-show="show2">
+            <div class="item item-text-wrap dark" ng-style="{'font-size': text.size + 'px'}" style="line-height: 150%">
+                <div ng-bind-html="etapa.way.w01"></div>
+                <br>
+                <div class="assertive" ng-bind-html="etapa.way.w02"></div>
+
+                <div ng-bind-html="etapa.way.w03"></div>
+                <br>
+                <div class="assertive" ng-bind-html="etapa.way.w04"></div>
+
+                <div ng-bind-html="etapa.way.w05"></div>
+                <br>
+                <div ng-bind-html="etapa.way.w06"></div>
+                <br>
+                <div class="assertive">Padre Nuestro</div>
+                <div ng-bind-html="padrenuestro"></div>
+                <br>
+                <div class="assertive">Oración final</div>                
+                <div ng-bind-html="etapa.way.w07"></div>
+                <br>             
+            </div>
+          </div>
+        </div>
+
+        <div class="list">
+          <ion-item class="bar bar-positive" ng-click="click3($event)"> 
+            <h1 class="title">Oración de la noche</h1>
+          </ion-item>
+                    <div class="card" ng-show="show3">
+            <div class="item item-text-wrap dark" ng-style="{'font-size': text.size + 'px'}" style="line-height: 150%">
+                <div ng-bind-html="etapa.night.n01"></div>
+                <br>
+                <div class="assertive" ng-bind-html="etapa.night.n02"></div>
+                <div ng-bind-html="etapa.night.n03"></div>
+                <br>
+                <div class="assertive" ng-bind-html="etapa.night.n04"></div>
+                <div ng-bind-html="etapa.night.n05"></div>
+                <br>
+                <div ng-bind-html="etapa.night.n06"></div>
+                <br>
+                <div class="assertive">Padre Nuestro</div>
+                <div ng-bind-html="padrenuestro"></div>
+                <br>
+                <div class="assertive">Oración final</div>                
+                <div ng-bind-html="etapa.night.n07"></div>
+                <br>             
+            </div>
+          </div>
+        </div>
+
+
+      </ion-list>
+
+  </ion-content>
+</ion-view>

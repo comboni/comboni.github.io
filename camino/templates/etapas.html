@@ -1,0 +1,12 @@
+<ion-view view-title="Etapas">
+  <ion-content>
+
+      <!-- <ion-item ng-repeat="etapa in etapas" href="#/app/etapas/{{etapa.id}}" class="item-thumbnail-left" > -->
+      <ion-item ng-repeat="etapa in etapas" href="#/app/etapas/{{etapas.indexOf(etapa)}}" class="item-thumbnail-left" >
+      	<img src="img/{{etapa.img}}" class="thumbs">
+        <h2><span ng-bind-html="etapa.title"></span></h2>
+      	<p><span ng-bind-html="etapa.dis"></span></p>
+      </ion-item>
+
+  </ion-content>
+</ion-view>
