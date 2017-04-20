@@ -1,0 +1,66 @@
+.mainbox{
+	position: relative;
+	top: 50px;
+	width: 300px;
+	height: 100%;
+	margin: auto;
+	border: black solid 1px;
+}
+
+.logo{
+	position: absolute;
+	width: 150px;
+	top:10px;
+	left:140px;
+	background-color: #fff;
+	opacity: .7;
+}
+.tit1{
+	position: absolute;
+	top:430px;
+	right:10px;
+	background-color: #fff;
+	opacity: .7;
+	font-size: 25px;
+	padding: 10px;
+	font-family: georgia;
+	text-align: right;
+}
+.fasi{
+	position: absolute;
+	top:90px;
+	left:10px;
+	opacity: .7;
+}
+.backhome{
+	position: absolute;
+	top:5px;
+	left:5px;
+	z-index: 10;
+
+}
+.tit2{
+	position: absolute;
+	top:10px;
+	right:10px;
+	background-color: #fff;
+	opacity: .7;
+	font-size: 25px;
+	padding: 10px;
+	font-family: georgia;
+	text-align: right;
+	z-index: 10;
+}
+.cap{
+	position: absolute;
+	bottom:10px;
+	left:10px;
+	background-color: #000;
+	opacity: .7;
+	font-size: 18px;
+	padding: 10px;
+	color:white;
+	font-family: georgia;
+	text-align: left;
+	z-index: 10;	
+}
