@@ -1,0 +1,62 @@
+/*Main page*/
+body{
+    overflow: hidden;
+}
+.backmain{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.bongo{
+    position: absolute;
+    top: 395px;
+    left: 250px;
+    height: 200px;
+    z-index: 100;
+    box-shadow: 20px 15px 15px -3px rgba(0,0,0,0.55);
+}
+
+/*Pages*/
+.bodypages{
+    background-image: url('../img/paper-background.jpg');
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 1920px;
+    overflow: hidden;
+}
+
+.maincontainer{
+    margin: 20px;
+}
+
+.contslider{
+    background-color: #cccccc;
+    padding: 10px;
+    height: 1020px;
+}
+
+.page{
+    height: 900px;
+    width: 680px;
+}
+
+.ethnictext{
+    padding:10px;
+    color: black;
+    background-color: rgba(200, 200, 200, 0.3);
+    box-shadow: 6px 4px 5px -3px rgba(0,0,0,0.55);
+}
+
+.ethnicmap{
+    width: 308px;
+    border: black solid 1px;
+    box-shadow: 6px 4px 5px -3px rgba(0,0,0,0.55);  
+    margin-bottom: 90px; 
+}
+
+.photoauthor{
+    width: 200px;
+    margin-left: 100px
+}
