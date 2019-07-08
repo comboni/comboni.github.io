@@ -52,18 +52,17 @@ body{
 }
 
 .ethnicmap{
-    width: 308px;
+    width: 100%;
     border: black solid 1px;
     box-shadow: 6px 4px 5px -3px rgba(0,0,0,0.55);  
-    margin-bottom: 90px; 
 }
 
 .photoauthor{
     width: 200px;
-    margin-left: 100px
+    margin-left: 40px;
 }
 
 .modal {
    position: absolute;
-   top: 00px;
+   top: 200px;
 }
