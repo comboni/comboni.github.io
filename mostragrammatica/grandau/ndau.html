@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<!--
+https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg
+https://sachinchoolur.github.io/lightslider/img/cS-1.jpg
+-->
+
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="../css/lightslider.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="../css/mycss.css" />
+	<script src="../js/jquery-3.4.1.min.js"></script>	
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/lightslider.min.js"></script>
+</head>
+<body class="bodypages">
+
+<div class="maincontainer">
+	<div class="row">
+		<div class="col-1">
+			<a href="../grammatica.html"><img width="30" src="../img/backarrow.png"></a>	
+		</div>
+		<div class="col-5">
+			<div style="font-size: 52px;" class="titlepage">Grammatica Ndau</div>
+		</div>
+		<div class="col-2 text-right">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalmap">I Ndau</button>
+		</div>
+		<div class="col-4 text-right">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalauthor">P. Manuel dos Anjos Martins</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12 contslider" >
+			<ul id="lightSlider">
+		        <li data-thumb="pages/p1t.jpg">
+		            <img class="page" src="pages/p1.jpg" />
+		        </li>
+		        <li data-thumb="pages/p2t.jpg">
+		            <img class="page" src="pages/p2.jpg" />
+		        </li>
+		        <li data-thumb="pages/p3t.jpg">
+		            <img class="page" src="pages/p3.jpg" />
+		        </li>
+		        <li data-thumb="pages/p4t.jpg">
+		            <img class="page" src="pages/p4.jpg" />
+		        </li>	 
+		        <li data-thumb="pages/p5t.jpg">
+		            <img class="page" src="pages/p5.jpg" />
+		        </li>
+		        <li data-thumb="pages/p6t.jpg">
+		            <img class="page" src="pages/p6.jpg" />
+		        </li>
+		        <li data-thumb="pages/p7t.jpg">
+		            <img class="page" src="pages/p7.jpg" />
+		        </li>
+		        <li data-thumb="pages/p8t.jpg">
+		            <img class="page" src="pages/p8.jpg" />
+		        </li>	 
+		        <li data-thumb="pages/p9t.jpg">
+		            <img class="page" src="pages/p9.jpg" />
+		        </li>
+			</ul>
+		</div>
+
+		<!-- Modal 1-->
+		<div class="modal fade" id="modalmap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <div class="modal-title modaltitle" id="exampleModalLabel">I Ndau</div>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true" style="font-size:58px;">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+				  <div class="container-fluid">
+				    <div class="row">
+				      <div class="col-md-12">
+				      	<iframe  scrolling="no" frameBorder="0" src="../frames/ndaupeople.html" width="700" height="600"></iframe>
+				      </div>
+				    </div>
+				  </div>
+					
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Modal 2-->
+		<div class="modal fade" id="modalauthor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h3 class="modal-title modaltitle" id="exampleModalLabel">P. Manuel dos Anjos Martins</h3>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true" style="font-size:58px;">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+				  <div class="container-fluid">
+			    	<iframe  scrolling="no" frameBorder="0" src="../frames/dosanjos.html" width="700" height="800"></iframe>
+				  </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript">
+
+// http://sachinchoolur.github.io/lightslider/
+/*thumb: 50x36
+image: */
+$('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 8,
+    auto: true,
+    speed: 400,
+    pause: 20000
+
+
+});
+
+</script>
+
+</body>
+</html>

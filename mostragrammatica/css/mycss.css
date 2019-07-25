@@ -1,28 +1,281 @@
 /*Main page*/
+
+@font-face {
+font-family: "DancingScript";
+src: url("DancingScript-Regular.ttf");
+src: url("DancingScript-Regular.ttf") format("woff"),
+     url("DancingScript-Bold.ttf") format("opentype");
+}
+
 body{
     overflow: hidden;
+}
+.homeicon{
+    position: absolute;
+    top:15px;
+    left: 15px;
 }
 .backmain{
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 0;
+    z-index: -10;
+    opacity: .5;
+}
+.backmainsection{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    opacity: .2; 
 }
 
-.bongo{
+.title{
     position: absolute;
-    top: 395px;
-    left: 250px;
-    height: 200px;
+    top:30px;
+    left:500px;
+    height: 160px;
     z-index: 100;
-    box-shadow: 20px 15px 15px -3px rgba(0,0,0,0.55);
 }
+.titlesection{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+.titlesectionimg{
+    position: absolute;
+    top: 0px;
+    left: : 0px;
+    width: 350px;
+    height: 150px;
+}
+.titlesectiontext{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    font-family: DancingScript;
+    font-size: 72px;
+}
+.board{
+    position: absolute;
+    top:250px;
+    left: 0px;
+    width: 250px;
+    box-shadow: 5px 7px 7px -3px rgba(0,0,0,0.55);
+    border-radius: 10px;
+}
+.books{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 300px;
+}
+.papertitle{
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    width: 300px;
+    height: 80px;
+}
+.titleoverpaper{
+    position: absolute;
+    top: 222px;
+    left: 50px;
+    font-family: DancingScript;
+    font-size: 50px;
+    color: #615432;
+}
+.catechismi{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    height: 300px;
+    z-index: 100;
+}
+.grammatica{
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    height: 300px;
+    z-index: 100;
+}
+.storia_sacra{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    height: 300px;
+    z-index: 100;
+}
+.testi_liturgici{
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    height: 300px;
+    z-index: 100;
+}
+.testi_educativi{
+    position: absolute;
+    top: 800px;
+    left: 380px;
+    height: 300px;
+    z-index: 100;
+}
+.musica{
+    position: absolute;
+    top: 800px;
+    left: 720px;
+    height: 300px;
+    z-index: 100;
+}
+
+/*SECTIONS */
+
+.secintro{
+    position: absolute;
+    top: 280px;
+    left: 20px; 
+    width: 240px;
+    background-color: rgba(0,0,0,.4);
+    padding: 10px;
+    color: white;
+}
+.secintromusica{
+/*    position: absolute;
+    top: 280px;
+    left: 20px; */
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    padding: 10px;
+    color: white;
+    z-index: 1000;
+}
+.modalsectext{
+    font-size: 28px;
+}
+
+
+.aciolibtn{
+    position: absolute;
+    top: 650px;
+    left: 520px;
+}
+.alurbtn{
+    position: absolute;
+    top: 670px;
+    left: 450px;
+}
+.baribtn{
+    position: absolute;
+    top: 520px;
+    left: 480px;
+}
+.bongobtn{
+    position: absolute;
+    top: 450px;
+    left: 350px;
+}
+.dinkabtn{
+    position: absolute;
+    top: 380px;
+    left: 320px;
+}
+.gumuzbtn{
+    position: absolute;
+    top: 260px;
+    left: 670px;
+}
+.langobtn{
+    position: absolute;
+    top: 680px;
+    left: 510px;
+}
+.logbarabtn{
+    position: absolute;
+    top: 620px;
+    left: 420px;
+}
+.lotukobtn{
+    position: absolute;
+    top: 570px;
+    left: 570px;
+}
+.karimojongbtn{
+    position: absolute;
+    top: 620px;
+    left: 590px;
+}
+.macuabtn{
+    position: absolute;
+    top: 1000px;
+    left: 980px;
+}
+.madibtn{
+    position: absolute;
+    top: 600px;
+    left: 430px;
+}
+.ndaubtn{
+    position: absolute;
+    top: 1040px;
+    left: 910px;
+}
+.ndogobtn{
+    position: absolute;
+    top: 450px;
+    left: 270px;
+}
+.nuerbtn{
+    position: absolute;
+    top: 370px;
+    left: 480px;
+}
+.nyungwebtn{
+    position: absolute;
+    top: 1090px;
+    left: 830px;
+}
+.pokotbtn{
+    position: absolute;
+    top: 710px;
+    left: 680px;
+}
+.shillukbtn{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+.toposabtn{
+    position: absolute;
+    top: 560px;
+    left: 650px;
+}
+.sidamobtn{
+    position: absolute;
+    top: 520px;
+    left: 720px;
+}
+.songabtn{
+    position: absolute;
+    top: 1370px;
+    left: 800px;
+}
+.yulubtn{
+    position: absolute;
+    top: 520px;
+    left: 280px;
+}
+.zandebtn{
+    position: absolute;
+    top: 550px;
+    left: 320px;
+}
+
 
 /*Pages*/
 .bodypages{
     background-image: url('../img/paper-background.jpg');
     background-repeat: no-repeat;
-    width: 1024px;
+    width: 1080px;
     height: 1920px;
     overflow: hidden;
 }
@@ -32,16 +285,21 @@ body{
 }
 
 .contslider{
-    background-color: #cccccc;
+    background-color: rgba(0,0,0,.1);;
     padding: 10px;
-    height: 1435px;
+    /*height: 1435px;*/
 }
 
 .page{
 /*    height: 900px;
     width: 680px;*/
-    height: 1306px;
+    /*height: 1306px;*/
     width: 980px;
+}
+
+.pagesmall{
+    height: 860px;
+    width: 680px;
 }
 
 .ethnictext{
@@ -52,17 +310,39 @@ body{
 }
 
 .ethnicmap{
-    width: 100%;
+    width: 308px;
     border: black solid 1px;
     box-shadow: 6px 4px 5px -3px rgba(0,0,0,0.55);  
+    margin-bottom: 90px; 
 }
 
 .photoauthor{
     width: 200px;
-    margin-left: 40px;
+    margin-left: 100px
 }
 
 .modal {
    position: absolute;
-   top: 200px;
+   top: 00px;
 }
+.titlepage{
+    font-size: 60px;
+    margin-left:20px;
+    margin-top: -20px;
+    font-family: DancingScript;
+}
+.modaltitle{
+    font-size: 48px;
+    margin-left:25px;
+    font-family: DancingScript;
+}
+.bio{
+    z-index: 100;
+}
+.photoauthor{
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+

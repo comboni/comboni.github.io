@@ -1,0 +1,111 @@
+<br><br>
+
+Poppoli
+=======
+Acioli
+Alur
+Bari
+Bongo
+Dinka
+Gumuz
+Lango 
+Logbara
+Lotuko
+Karimojong
+Macua
+Madi
+Ndau
+Ndogo
+Nuer
+Nyungwe
+Pokot
+Shilluk
+Sidamo
+Songa
+Toposa
+Yulu
+Zande
+
+Autori
+======
+P. Lorenzo Spagnolo		img		frame	ok
+P. Stefano Santandrea	img		frame	ok
+P. Arthur Nebel			img		frame	ok
+P. Marco Innocenti
+P. Bruno Carollo	
+P. Carlo Muratori		img		frame	ok
+P. Gino Centis			img		frame	ok
+P. Crazzolara			img		frame	ok
+P. Manuel dos Anjos  	img		frame
+P. Tomás Herreros
+P. Kohnen				img		frame	ok
+Mons. Sandri			img		frame	ok
+P. Lino Spagnolo		img		frame	ok
+P. Antonio La Braca		img		frame
+Fr. Michele Sergi		img		frame	ok
+P. Filberto Giorgeitti	img		frame	ok
+
+
+Autori Catechismi
+=================
+Acioli - ???
+Bari - ???
+Dinka - P. Nebel						frame
+Karimojong - ???
+Macua - ???
+Ndogo - ???
+Nuer - ???
+Shilluk - ???
+Toposa - ???
+Zande - ???
+
+Autori Grammatica
+=================
+Bari - P. Lorenzo Spagnolo				frame	
+Bongo - P. Stefano Santandrea			frame
+Dinka - P. Nebel						frame
+Gumuz - P. Marco Innocenti				xxx
+Lango - P. Bruno Carollo				xxx
+Lotuko - P. Muratori					frame
+Macua - P. Gino Centis					frame
+Madi - P. Crazzolara					frame
+Ndau - P. Manuel dos Anjos Martins		frame
+Nyungwe - P. Manuel dos Anjos Martins	frame
+Pokot - P. Tomás Herreros				xxx
+Shilluk - P. Kohnen						frame
+Yulu - P. Stefano Santandrea			frame
+
+Autori Storie Sacre
+=================
+Dinka - P. Nebel						frame
+Logbara - ???
+Lotuko - ???
+Ndogo - ???
+Songa - Mons. Sandri					frame
+Toposa - P. Lino Spagnolo				frame
+
+Autori Testi Liturgici
+=================
+Acioli - ???
+Alur - ???
+Karimojong - P. Antonio La Braca		frame
+Macua - ???
+Madi - ???
+Ndogo - ???
+Nuer - Fr. Michele Sergi				frame
+Pokot - ???
+Sidamo - ???
+
+
+Autori Testi Educativi
+=================
+Bari - ???
+Dinka - Nebel							frame
+Ndogo - ???
+
+
+
+Autori Musica
+=================
+Giorgeitti								frame
+
