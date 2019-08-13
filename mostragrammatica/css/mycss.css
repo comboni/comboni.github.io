@@ -6,6 +6,11 @@ src: url("DancingScript-Regular.ttf");
 src: url("DancingScript-Regular.ttf") format("woff"),
      url("DancingScript-Bold.ttf") format("opentype");
 }
+@font-face {
+font-family: "Mahdalena";
+src: url("Mahdalena.ttf");
+src: url("Mahdalena.ttf") format("opentype");
+}
 
 body{
     overflow: hidden;
@@ -29,12 +34,27 @@ body{
     z-index: -10;
     opacity: .2; 
 }
-
+.backcartoline{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    opacity: .5; 
+}
 .title{
     position: absolute;
-    top:30px;
+    top:10px;
+    left:400px;
+    font-family: Mahdalena;
+    font-size: 80px;
+    z-index: 100;
+}
+.title2{
+    position: absolute;
+    top:90px;
     left:500px;
-    height: 160px;
+    font-family: Mahdalena;
+    font-size: 70px;
     z-index: 100;
 }
 .titlesection{
@@ -52,7 +72,7 @@ body{
 .titlesectiontext{
     position: absolute;
     top: 20px;
-    left: 35px;
+    left: 20px;
     font-family: DancingScript;
     font-size: 72px;
 }
@@ -87,44 +107,86 @@ body{
 }
 .catechismi{
     position: absolute;
-    top: 300px;
+    top: 230px;
     left: 50px;
     height: 300px;
     z-index: 100;
 }
 .grammatica{
     position: absolute;
-    top: 300px;
+    top: 230px;
     left: 380px;
     height: 300px;
     z-index: 100;
 }
 .storia_sacra{
     position: absolute;
-    top: 300px;
+    top: 230px;
     left: 720px;
     height: 300px;
     z-index: 100;
 }
 .testi_liturgici{
     position: absolute;
-    top: 800px;
+    top: 640px;
     left: 50px;
     height: 300px;
     z-index: 100;
 }
 .testi_educativi{
     position: absolute;
-    top: 800px;
+    top: 640px;
     left: 380px;
     height: 300px;
     z-index: 100;
 }
 .musica{
     position: absolute;
-    top: 800px;
+    top: 640px;
     left: 720px;
     height: 300px;
+    z-index: 100;
+}
+.papertitle2{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 400px;
+    height: 70px;
+        box-shadow: 5px 7px 7px -3px rgba(0,0,0,.55);
+}
+.titleoverpaper2{
+    position: absolute;
+    top:0px;
+    left: 5px;
+    width: 400px;
+    font-family: DancingScript;
+    font-size: 50px;
+    color: #615432;
+    text-align: center;
+}
+.books2{
+    position: absolute;
+    top:-230px;
+    left: 100px;
+    width: 200px;
+}
+.books3{
+    position: absolute;
+    top:-220px;
+    left: 30px;
+    width: 390px;
+}
+.cartoline{
+    position: absolute;
+    top: 1240px;
+    left: 50px;
+    z-index: 100;
+}
+.incontri{
+    position: absolute;
+    top: 1240px;
+    left: 620px;
     z-index: 100;
 }
 
@@ -179,6 +241,11 @@ body{
     top: 380px;
     left: 320px;
 }
+.giurbtn{
+    position: absolute;
+    top: 470px;
+    left: 350px;
+}
 .gumuzbtn{
     position: absolute;
     top: 260px;
@@ -222,7 +289,7 @@ body{
 .ndogobtn{
     position: absolute;
     top: 450px;
-    left: 270px;
+    left: 260px;
 }
 .nuerbtn{
     position: absolute;
@@ -248,6 +315,11 @@ body{
     position: absolute;
     top: 560px;
     left: 650px;
+}
+.sepedibtn{
+    position: absolute;
+    top: 1270px;
+    left: 750px;
 }
 .sidamobtn{
     position: absolute;
@@ -344,5 +416,56 @@ body{
     margin-left: 20px;
 }
 
+/* CARTOLINE */
+.titlesectioncartoline{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.titlesectionimgcartoline{
+    position: absolute;
+    top: 0px;
+    left: : 0px;
+    width: 450px;
+    height: 110px;
+}
+.titlesectiontextcartoline{
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 700px;
+    font-family: DancingScript;
+    font-size: 92px;
+}
+.boxcartoline {
+  margin-top: 150px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  height: 1000px;
+  font-size: 50px;
+}
+.imgcatoinesec{
+    width: 500px;
+    margin-top: 40px;
+    opacity: .7;
+    box-shadow: 6px 4px 5px -3px rgba(0,0,0,0.7);  
 
+}
+
+/*INCONTRI*/
+.didascalia{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    /*width: 700px;*/
+    font-size: 28px;
+    /*background-color: rgba(0,0,0,0.5);*/
+    /*color: white;*/
+    padding: 10px;
+    text-align: center;
+
+}
 

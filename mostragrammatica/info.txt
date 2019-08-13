@@ -6,7 +6,7 @@ Acioli
 Alur
 Bari
 Bongo
-Dinka
+Denka
 Gumuz
 Lango 
 Logbara
@@ -50,7 +50,8 @@ Autori Catechismi
 =================
 Acioli - ???
 Bari - ???
-Dinka - P. Nebel						frame
+Denka - P. Nebel
+Giur - ???						frame
 Karimojong - ???
 Macua - ???
 Ndogo - ???
@@ -61,23 +62,23 @@ Zande - ???
 
 Autori Grammatica
 =================
-Bari - P. Lorenzo Spagnolo				frame	
-Bongo - P. Stefano Santandrea			frame
-Dinka - P. Nebel						frame
-Gumuz - P. Marco Innocenti				xxx
-Lango - P. Bruno Carollo				xxx
-Lotuko - P. Muratori					frame
-Macua - P. Gino Centis					frame
-Madi - P. Crazzolara					frame
-Ndau - P. Manuel dos Anjos Martins		frame
-Nyungwe - P. Manuel dos Anjos Martins	frame
-Pokot - P. Tomás Herreros				xxx
-Shilluk - P. Kohnen						frame
-Yulu - P. Stefano Santandrea			frame
+- 2 Bari - P. Lorenzo Spagnolo				frame	
+- Bongo - P. Stefano Santandrea			frame
+- 2 Denka - P. Nebel						frame
+- Gumuz - P. Marco Innocenti				xxx
+- Lango - P. Bruno Carollo				xxx
+- Lotuko - P. Muratori					frame
+- Macua - P. Gino Centis					frame
+- 2 Madi - P. Crazzolara & Molinaro				frame
+- Ndau - P. Manuel dos Anjos Martins		frame
+- Nyungwe - P. Manuel dos Anjos Martins	frame
+- 2 Pokot - P. Tomás Herreros				xxx
+- Shilluk - P. Kohnen						frame
+- Yulu - P. Stefano Santandrea			frame
 
 Autori Storie Sacre
 =================
-Dinka - P. Nebel						frame
+Denka - P. Nebel						frame
 Logbara - ???
 Lotuko - ???
 Ndogo - ???
@@ -100,7 +101,7 @@ Sidamo - ???
 Autori Testi Educativi
 =================
 Bari - ???
-Dinka - Nebel							frame
+Denka - Nebel							frame
 Ndogo - ???
 
 
