@@ -1,0 +1,234 @@
+/*HEX	#3e64c1		blue
+RGB	62, 100, 193
+HEX	#c13ea6			purple
+RGB	193, 62, 166
+HEX	#c19b3e			yellow
+RGB	193, 155, 62
+HEX	#3ec159			green
+RGB	62, 193, 89*/ 
+
+@font-face {
+    font-family: "Brushield";
+    src: url("Brushield.ttf");
+}
+
+body{
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;	/*scroll*/
+}
+#control{
+	position: fixed;
+	top: 25px;
+	left: 5px;
+	z-index: 1000;
+}
+#nav{
+	position: fixed;
+	top:30px;
+	left:10px;
+	height: 180px;
+	border: black solid 1px;
+	padding: 10px;
+	background-color: white;
+	opacity: 0.8;
+	z-index: 10;
+}
+#pagenumber{
+	position: relative;
+	top:20px;
+}
+
+section{
+	position: absolute;
+	height: 100%;	
+}
+
+.prev-section, .next-section{
+	position: absolute;
+	width: 50px;
+}
+.next-section{
+	left: 50px;
+}
+
+/*#nexta{
+	position: fixed;
+	bottom:5vh;
+	right: 5vw;
+	opacity: 1;
+	z-index: 100;
+}
+#nexta img{
+	width: 50px;
+	height: 50px;
+}*/
+
+#steps{
+	position: fixed;
+	top: 2vh;
+	height: 5vh;
+	width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    z-index: 100;
+}
+#curtain{
+	position: fixed;
+	top:0px;
+	left:0px;
+	height: 10vh;
+	width: 100%;
+	/*background-color: red;*/
+	border: red solid 1px;
+	z-index: 125;
+}
+.itemstep{
+	margin-left: 2vw;
+	margin-right: 2vw;
+	width: 40px;
+	height: 40px;
+	background-color: #3ec159;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px; 
+	color: white;
+	font-size: 26px;
+	text-decoration: none;
+}
+.itemstep a{
+	text-decoration: none;
+	color: white;
+}
+#progressline{
+	position: fixed;
+	top: 4vh;
+	left: -100px;
+	height: 1.5vh;
+	/*width: 100vw;*/
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    /*display: none;*/
+    opacity: .7;
+    z-index: 99;
+    background-color: gray;
+}
+#progresslineitem{
+	position: absolute;
+	top:0vh;
+	width: 5vw;
+	height: 1.5vh;
+	background-color: #3ec159;
+}
+#handcont{
+	position: fixed;
+	top:4vh;
+	pointer-events: none;
+	left: -100px;
+	z-index: 150;
+	opacity: 0;
+}
+#click-index{
+	width: 50px;
+	pointer-events: none;
+	-webkit-animation: flickerAnimation 1s infinite;
+   	-moz-animation: flickerAnimation 1s infinite;
+   	-o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.mainframe{
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+	width: 100vw;
+	height: 100vh;
+	max-height: 70vw;
+	overflow: hidden;
+}
+
+
+.titlesec{
+	position: absolute;
+	top:6vh;
+	right:-3vw;
+	width: 30vw;
+	color: #111;
+	font-size: calc(3em + 3vw);
+	/*font-family: 'Sedgwick Ave Display', cursive;*/
+	font-family: Brushield;
+	transform: rotate(-20deg);
+	text-shadow: 5px 5px 3px #222;
+}
+
+.txtbox{
+	width: 18vw;
+	color: white;
+	font-size: calc(.4em + .8vw); 
+	background-color: #c19b3e;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 3px 4px 20px #222; 
+}
+.letterbox{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.5vw;
+}
+.letterboxtext{
+	position: absolute;
+	top:0vh;
+	left:0vw;
+	padding: 2vw;
+	color: black;
+	background-image: url('../img/paper-letter.jpg');
+	box-shadow: 3px 4px 20px #222; 
+}
+.label{
+	background-color: #3e64c1;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 1.5vw;
+	display: inline-block;	
+	box-shadow: 3px 4px 20px #222; 
+}
+.bocadillo{
+	background-color: #3ec159;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1.2vw;
+	display: inline-block;	
+	box-shadow: 3px 4px 20px #222; 
+}
+
+
+/*hola*/

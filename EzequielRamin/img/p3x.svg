@@ -1,0 +1,10 @@
+<svg width="830" height="633" enable-background="new" version="1.1" viewBox="0 0 220 167" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter4581" color-interpolation-filters="sRGB">
+   <feBlend in2="BackgroundImage" mode="screen"/>
+  </filter>
+ </defs>
+ <g filter="url(#filter4581)">
+  <path d="m108 146h-26l-9-11-13 2-14-2-13-15 0-33-5-8v-7l3-4-3-18 49-0 6-2 1 4 5-3 14 3 5-4 7-25" fill="none" stroke="#000" stroke-width="0px"/>
+ </g>
+</svg>

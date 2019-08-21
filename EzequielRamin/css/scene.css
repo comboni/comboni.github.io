@@ -1,0 +1,669 @@
+/*************/
+/* SECTION 1 */
+/*************/
+#sec01{
+	width: 100vw;
+	/*background-image: url('../img/bricks.jpg');*/
+}
+#sec1_title{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	font-family: 'Rock Salt', cursive;
+	font-size: 5vw;
+}
+#sec1_title2{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	font-family: 'Special Elite', cursive;
+	font-size: 4vw;
+}
+#map1{
+/*	position: absolute;
+	top: 10vw;
+	left: 10vw;*/
+	height: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*display: none;*/
+    opacity: .7;
+    z-index: 0;
+}
+#map1 img{
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+#raminimg{
+	position: absolute;
+	top:0vw;
+	right: 0vh;
+	height: 100%;
+	max-width: 50%;
+	max-height: 1000px;
+	opacity: 1;
+	/*border: red solid 1px;*/
+}
+#raminimg img{
+	height: 100%;
+}
+
+
+/*************/
+/* SECTION 2 */
+/*************/
+#sec02{
+	width: 100vw;
+	left: 100vw;
+	background-image: url('../img/bricks.jpg');
+}
+.cont2 {
+	position: absolute;
+	top: 9vh;
+	left: 5vw;
+	width: 90vw;
+	height: 90vh;
+}
+/*.st1 {
+	position: absolute;
+	top: 10vh;
+	left: 10vw;
+	border: white solid 1px;
+  	stroke: #3e64c1; 
+  	stroke-width: 20; /* must set this for DrawSVG to work*/
+  	/*stroke-miterlimit: 10;*/
+  	/*stroke-linejoin: round;  makes the ends of the stroke rounded*/
+  	/*visibility: hidden;
+  	opacity: .6;
+  	fill: none;
+  	transform: scale(1);	
+}*/
+.date_03{
+	width: 8vw;
+	height: 5vh;
+	background-color: #3e64c1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2vw; 
+	color: white;
+	font-size: calc(.8em + 1vw); 
+}
+#date1_02{
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+}
+#img1_02{
+	position:absolute;
+	top: 97%;
+	left: 2vw;
+	width: 100%;
+}
+#tb1_02{
+	position: absolute;
+	top: 8vh;
+	left: 0vw;
+}
+#date2_02{
+	position: absolute;
+	top: 0vh;
+	left: 23vw;
+}
+#tb2_02{
+	position: absolute;
+	top: 8vh;
+	left: 23vw;
+}
+#date3_02{
+	position: absolute;
+	top: 0vh;
+	left: 46vw;
+}
+#tb3_02{
+	position: absolute;
+	top: 8vh;
+	left: 46vw;
+}
+#date4_02{
+	position: absolute;
+	top: 15vh;
+	left: 69vw;
+}
+#tb4_02{
+	position: absolute;
+	top: 22vh;
+	left: 69vw;
+}
+#img2_02{
+	position:absolute;
+	top: 97%;
+	left: 2vw;
+	width: 100%;
+}
+
+
+
+
+/*************/
+/* SECTION 3 */
+/*************/
+#sec03{
+	width: 100vw;
+	left: 200vw;
+	background-image: url('../img/bricks.jpg');
+}
+#mapzoom{
+	position: absolute;
+	top: 15%;
+	left: 2vw;
+	height: 60%;
+	width: 45%;
+	border-radius: 10px;
+	border: black solid 1px;
+	box-shadow: 3px 3px 5px #222;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+/*#mapzoom img{
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+	width: 100%;
+	opacity: 0;
+	overflow: hidden;
+	object-fit: cover;
+}*/
+.imgxzoom{
+	position: absolute;
+	top:0%;
+	left:0%; 
+	width: 100%;
+	max-height: 120%;
+	object-fit: cover;
+	opacity: 0;
+}
+
+#tb1_03{
+	position: absolute;
+	bottom: 5%;
+	left: 2%;
+	width: 42% !important;
+	font-size: calc(.3em + 1vw); 
+}
+#tb2_03{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	width: 18% !important;
+}
+#tb3_03{
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	width: 18% !important;
+}
+
+#img1_03{
+	position: absolute;
+	bottom:3%;
+	right:3%; 
+	width: 45%;
+	max-height: 50%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: black solid 1px;
+	box-shadow: 3px 3px 5px #222;
+}
+
+
+
+/*************/
+/* SECTION 4 */
+/*************/
+#sec04{
+	width: 100vw;
+	left: 300vw;
+	background-image: url('../img/bricks.jpg');
+}
+#img1_04{
+	position: absolute;
+	bottom: 0vh;
+	left: 0vw;
+	height: 60%;
+}
+#tb1_04{
+	position: absolute;
+	top: 9%;
+	left: 3%;
+	width: 30% !important;
+}
+#tb2_04{
+	position: absolute;
+	top: 9%;
+	left: 37%;
+	width: 30% !important;
+}
+#tb3_04{
+	position: absolute;
+	top: 35%;
+	right: 3%;
+	width: 25%;
+	transform: rotate(5deg);
+}
+#img2_04{
+	position: absolute;
+	bottom: 0vh;
+	left: 30%;
+	height: 50%;
+	border: black solid 1px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 3px #222;
+	transform: rotate(-5deg);
+}
+
+/*************/
+/* SECTION 5 */
+/*************/
+#sec05{
+	width: 100vw;
+	left: 400vw;
+	background-image: url('../img/bricks.jpg');
+}
+#ts5{
+	top:1vh !important;
+	right: -10% !important;
+	z-index: 150;
+}
+#img1_05{
+	position: absolute;
+	top: 0%;
+	left: -30%;
+	height: 150%;
+}
+
+#tb1_05{
+	position: absolute;
+	top: 12%;
+	left: 20%;
+}
+#tb2_05{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 25%;
+	transform: rotate(5deg);
+}
+#tb3_05{
+	position: absolute;
+	top: 12%;
+	left: 60%;
+}
+#tb4_05{
+	position: absolute;
+	top: 40%;
+	right: 0%;
+	width: 25%;
+	transform: rotate(5deg);
+}
+/*************/
+/* SECTION 6 */
+/*************/
+#sec06{
+	width: 100vw;
+	left: 500vw;
+	background-image: url('../img/bricks.jpg');
+}
+#ts6{
+	z-index: 150;
+}
+
+#img1_06{
+	position: absolute;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img1_06 img{
+	height: 100%;
+}
+#lbl1_06{
+	position: absolute;
+	top: 80%;
+	left: 55%;
+	display: hidden;
+}
+#lbl2_06{
+	position: absolute;
+	top: 20%;
+	left: 54%;
+	display: hidden;
+}
+#rp1_06{
+	position: absolute;
+	top: 20%;
+	left: 51%;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	border: black solid 1px;
+	background-color: red;
+	display: hidden;
+}
+#lbl3_06{
+	position: absolute;
+	top: 28%;
+	left: 60%;
+	display: hidden;
+}
+#boca1_06{
+	position: absolute;
+	top: 12%;
+	left: 20%;
+	width: 20vw;
+}
+#boca2_06{
+	position: absolute;
+	top: 55%;
+	left: 52%;
+	width: 30%;
+}
+#svg1_06 {
+	position: absolute;
+	top: 10%;
+	left: 25%;
+  	stroke: #3e64c1; 
+  	stroke-width: 5; /* must set this for DrawSVG to work*/
+  	stroke-dasharray: 4;
+  	stroke-miterlimit: 10;
+  	stroke-linejoin: round; /* makes the ends of the stroke rounded*/
+  	visibility: hidden;
+  	opacity: 1;
+  	fill: none;
+  	/*transform: scale(1.14);	*/
+}
+#car_06 img{
+	width: 3%;
+	opacity: 0;
+}
+#car1b_06{
+	width: 3%;
+	opacity: 0;
+}
+#boca3_06{
+	position: absolute;
+	top: 40%;
+	left: 52%;
+	width: 25vw;
+}
+#boca4_06{
+	position: absolute;
+	top: 45%;
+	left: 10%;
+	width: 15vw;
+}
+/*************/
+/* SECTION 7 */
+/*************/
+
+#sec07{
+	width: 100vw;
+	left: 600vw;
+	background-image: url('../img/bricks.jpg');
+}
+#ts7{
+	z-index: 150;
+	color: white;
+}
+#rp1_07{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	border: black solid 1px;
+	background-color: red;
+	display: hidden;
+}
+#img1_07{
+	position: absolute;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img1_07img{
+	height: 100%;
+}
+#svg1_07 {
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+  	stroke: #3e64c1; 
+  	stroke-width: 5; /* must set this for DrawSVG to work*/
+  	stroke-dasharray: 4;
+  	stroke-miterlimit: 10;
+  	stroke-linejoin: round; /* makes the ends of the stroke rounded*/
+  	visibility: hidden;
+  	opacity: 1;
+  	fill: none;
+  	/*transform: scale(2.6);	*/
+}
+#car_07 img{
+	width: 6%;
+	opacity: 0;
+}
+#car2_07 img{
+	width: 7%;
+	opacity: 0;
+}
+#img2_07{
+	position: absolute;
+	top: 52%;
+	left: 73%;
+	width: 7%;
+}
+#img3_07{
+	position: absolute;
+	top: 77%;
+	left: 82%;
+	width: 5%;
+}
+#img4_07{
+	position: absolute;
+	top: 24%;
+	left: 17%;
+	width: 7%;
+}
+#img5_07{
+	position: absolute;
+	top: 17%;
+	left: 13%;
+	width: 5%;
+}
+#lbl1_07{
+	position: absolute;
+	top: 45%;
+	left: 75%;
+	/*display: hidden;*/
+}
+#lbl2_07{
+	position: absolute;
+	top: 67%;
+	left: 82%;
+	/*display: hidden;*/
+}
+#boca1_07{
+	position: absolute;
+	top: 40%;
+	left: 4%;
+	width: 15vw;
+}
+#boca2_07{
+	position: absolute;
+	top: 65%;
+	left: 52%;
+	width: 20vw;
+}
+#boca3_07{
+	position: absolute;
+	bottom: 5%;
+	right: 3%;
+}
+#boca4_07{
+	position: absolute;
+	top: 42%;
+	left: 53%;
+}
+#boca5_07{
+	position: absolute;
+	top: 80%;
+	left: 67%;
+}
+#boca6_07{
+	position: absolute;
+	top: 13%;
+	left: 21%;
+}
+
+/*************/
+/* SECTION 8 */
+/*************/
+#sec08{
+	width: 100vw;
+	left: 700vw;
+	background-image: url('../img/bricks.jpg');
+}
+#blackbox{
+	position: absolute;
+	bottom: 0%;
+	right:0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+#blackbox img{
+	position: absolute;
+	bottom: 0%;
+	right:0%;
+}
+#lbl1_08 {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	color: white;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 50px;
+}
+
+/*************/
+/* SECTION 9 */
+/*************/
+#sec09{
+	width: 100vw;
+	left: 800vw;
+	background-image: url('../img/bricks.jpg');
+}
+#ts9{
+	top:.1vh !important;
+	z-index: 150;
+}
+.quotes_09{
+	margin: 10% 5% 5% 5%;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.quotes_09 div:nth-child(odd){
+	margin-left: 20%;
+}
+.quotes_09 div:nth-child(even){
+	margin-right: 20%;
+}
+.quotebox{
+	width: 70%;
+	color: black;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: calc(.7em + .7vw);
+	background-image: url('../img/paper-letter.jpg');
+	background-size: cover;
+	padding: 2vh;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 3px 4px 20px #222; 
+	z-index: 100;
+}
+#img1_09{
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+	height: 80%;
+	transform: rotate(-10deg);
+	border: black solid 1px;
+	box-shadow: 3px 4px 20px #222; 
+	z-index: 10;
+}
+/*************/
+/* SECTION 10 */
+/*************/
+#sec10{
+	width: 100vw;
+	left: 900vw;
+	background-image: url('../img/bricks.jpg');
+}
+#ts10{
+	position: absolute;
+	top:.1vw !important;
+	right: -25vh !important;
+	transform: rotate(0deg);
+	z-index: 110;
+}
+.videos{
+	position: absolute;
+	top:12vh;
+	left: 5%;
+	width: 100%;
+	height: 100%;
+}
+.row_10 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 40%;
+  margin-bottom: 3%;
+}
+.column_10 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.column_10 iframe{
+	width: 90%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.video_10{
+	border: black solid 1px;
+	box-shadow: 3px 4px 20px #222; 
+}
