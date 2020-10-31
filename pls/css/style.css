@@ -1,0 +1,285 @@
+/*
+	General styles
+*/
+html{
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;	/*scroll*/
+}
+body{
+	/*background-image: url('../img/back1.JPG');*/
+	background-color: #1a360b;
+}
+
+#homeicon{
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
+    z-index: 100;
+    cursor: pointer;
+    border: white solid 3px;
+    border-radius: 10px;
+    background-color: rgb(100,100,100,.5);
+    padding: 5px;
+}
+#homeicon img{
+  width: 5vw;
+}
+
+/* Styles of Text*/
+.MainTitle{
+	font-family: 'Allura', cursive;
+	font-size: 10vw;
+	line-height: 7vh;
+	text-align: center;
+	color: white;
+}
+.MainSubtitle{
+	font-family: 'Allura', cursive;
+	font-size: 7vw;
+	/*line-height: 9vh;*/
+	text-align: center;
+	color: white;
+}
+.titleSection{
+	font-family: Calibri, serif;
+	font-size: 40px;
+	/*line-height: 35px;*/
+	text-align: center;
+	color: dimgrey;
+	font-weight: bold;
+	top: 10vh;
+}
+
+.mg_tx_long {
+	background-color: gray;
+	width: 300px;
+	height: auto;
+	border-radius: 50px;
+	padding: 30px;
+	display: inline-block;
+	max-width: none;
+	text-overflow: initial;
+	white-space: normal;
+	overflow: auto;
+	position: relative;
+	text-align: left;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 18px;
+	z-index: 99;
+}
+.blink{
+	animation: blink-animation 1s steps(3, start) infinite;
+}
+@keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
+.txt1{
+	font-family: 'Gravitas One', cursive;
+	font-size: 54px;
+	line-height: 40px;
+	/*text-align: center;*/
+	color: dimgrey;
+}
+
+.num{
+	z-index: 100;
+}
+.num_num{
+	background-color: red;
+	color: white;
+	width: 3vw;
+	height: 3vw;
+	border-radius: 1.5vw;
+	border-color: white;
+	text-align: center;
+	line-height: 3vw;
+	font-family: 'Gravitas One';
+	z-index: 5;
+	cursor: pointer;
+}
+
+.num_title{
+	position: relative;
+	top: -4.2vh;
+	left: 3.2vw;
+	color: white;
+	border-radius: 1vw;
+	border: white solid 1px;
+	background-color: rgb(50,200,50,.8);
+	text-align: center;
+	font-family: Arial;
+	line-height: 2vw;
+	font-size: 2vw;
+	padding: .5vw;
+	cursor: pointer;
+}
+
+#svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.line{
+  stroke-width:10px;
+  stroke-dasharray: 20 80;
+  stroke:rgb(227, 152, 39);
+  animation: dash 50s linear reverse infinite;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+.cl_opacity{
+	animation: an_opacity 5s 1;
+}
+@keyframes an_opacity {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.pulse{
+	animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { opacity: 1; scale: 1; }
+  50% { opacity: 1; scale: 1.05; }
+  100% { opacity: 1; scale: 1;}
+}
+
+.pannel{
+	z-index: 100;
+}
+
+.close{
+	position: absolute;
+	top: 1vh;
+	right: 1vw;
+	border: white solid 3px;
+	border-radius: 3px;
+	padding: 6px 6px 0px 6px;
+	width: 3vw;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(100,100,100,.5);
+	z-index: 100;
+}
+
+.panino{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	border: white solid 3px;
+	border-radius: 5px;
+	padding: 15px;
+	width: 20vw;
+	font-family: Arial;
+	background-color: rgba(63,63,63,0.8);
+}
+.panino_title{
+	position: relative;
+	top: -4vh;
+	left: -3vw;
+	color: white;
+	font-size: 32px;
+	padding: 5px;
+	display: inline-block;
+	font-family: Arial;
+	background-color: rgba(200,63,63,0.8);
+	transform: rotate(-15deg);
+}
+
+.rotate_title{
+	animation: rot .4s linear;
+}
+@keyframes rot {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(180deg);}
+}
+
+.tema_tit{
+	position: absolute;
+	top: -3vh;
+	left: -3vw;
+	color: white;
+	padding: 15px;
+	background-color: rgb(50,200,50,.8);
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 7vw;
+	border-radius: 15px;
+	z-index: 10;
+}
+
+
+.slidebox{
+	position: absolute;
+}
+
+.slide_btn{
+	position: relative;
+	top: 2vh;
+	left: -2vw;
+	color: white;
+	font-size: 3vw;
+	padding: .5vw;
+	display: inline-block;
+	font-family: Arial;
+	background-color: rgba(200,63,63,0.8);
+	border-radius: 15px;
+	cursor: pointer;
+}
+.slide_arrow{
+	width: 2vw;
+}
+
+.slide_body{
+	padding-top: 1vh;
+	color: white;
+	font-size: 18px;
+	border: white solid 3px;
+	border-radius: 5px;
+	padding: 15px;
+	font-family: Arial;
+	background-color: rgba(63,63,63,0.8);
+	display: none;
+	overflow-y: scroll;
+	overflow-x: hidden;	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+
+*/
