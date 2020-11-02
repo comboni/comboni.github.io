@@ -216,6 +216,7 @@ body{
 	font-size: 7vw;
 	border-radius: 15px;
 	z-index: 10;
+	display: inline-block;
 }
 
 
@@ -243,7 +244,7 @@ body{
 .slide_body{
 	padding-top: 1vh;
 	color: white;
-	font-size: 18px;
+	font-size: 2vw;
 	border: white solid 3px;
 	border-radius: 5px;
 	padding: 15px;
