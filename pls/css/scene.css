@@ -176,21 +176,10 @@
     border-radius: 15px;
     box-shadow: 5px 5px 15px 1px rgba(63,63,63,0.8);
 }
-#img_3_1{
-    position: relative;
-    width: 90vw; /* or any custom size */
-    height: 90vh; 
-}
-
-#img_3_1 img{
-    width: 90vw; /* or any custom size */
-    height: 90vh; 
-    object-fit: cover;
-    border-radius: 15px;
-}
-
 .slideshow_3 {
-  position: absolute;
+  position: relative;
+  width: 90vw; 
+  height: 90vh; 
   overflow: hidden;
   top: 0vh;
   left: 0vw;
